@@ -19,7 +19,7 @@ def main_menu():
             choice = input("실행할 기능의 번호를 입력하세요 (0-5): ").strip()
             
             if choice == '0':
-                print("\n👋 프로그램을 종료합니다. 감사합니다!")
+                print("\n프로그램을 종료합니다. 감사합니다!")
                 break
             
             elif choice == '1':

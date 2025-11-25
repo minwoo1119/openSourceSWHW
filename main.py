@@ -5,7 +5,7 @@ from cm_to_meter import cm_to_m
 from random_generator import generate_password
 
 def main_menu():
-    print("기능 선택 메뉴 🛠️")
+    print("기능 선택 메뉴")
     print("1. 단위 변환기 (cm ↔ m, kg ↔ g 등)")
     print("2. 간단 계산기 (사칙연산)")
     print("3. 점수 평균 계산")

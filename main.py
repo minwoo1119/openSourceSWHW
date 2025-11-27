@@ -1,6 +1,6 @@
 from cm_to_metefrom cm_to_meter import cm_to_m
 # from calculators import simple_calculator  # 간단 계산기 함수 (예시)
-# from score_analysis import calculate_average # 점수 평균 계산 함수 (예시)
+from average_calculate import avg_calc
 # from string_utils import string_processor   # 문자열 처리 함수 (예시)
 from random_generator import generate_password
 
@@ -35,7 +35,7 @@ def main_menu():
 
             elif choice == '3':
                 print("\n[3. 점수 평균 계산]을 실행합니다...")
-                # calculate_average() # 여기에 점수 평균 계산 함수 호출
+                avg_calc()
                 pass
 
             elif choice == '4':

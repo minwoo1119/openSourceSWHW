@@ -1,11 +1,12 @@
 import random
 import string
 
-len = 6
-a = string.ascii_uppercase
-result = ""
+def random_generator():
+    len = 6
+    a = string.ascii_uppercase
+    result = ""
 
-for i in range(len):
-    result += random.choice(a)
+    for i in range(len):
+        result += random.choice(a)
 
-print(result)
+    return result

@@ -1,12 +1,10 @@
-n = 0
-m = 0
-x = 0
-y = 0
-while True:
-        x = float(input("점수를 입력하시오.(점수를 다 입력하셨다면 음수를 입력):"))
-        if (x < 0):
-                y = n / m
-                print("평균 점수:", y)
+def average_calculate():
+        sum = 0
+        point = 0
+        score = float(input("하나씩 점수를 입력하세요.(다 입력했다면 아무 음수나 입력하여 끝내):"))
+        if (score < 0):
+                average = sum / point
+                print("평균 점수:",average)
                 break
-        n = x + n
-        m = m + 1
+        sum = sum + score
+        point = point + 1

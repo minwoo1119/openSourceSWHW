@@ -1,5 +1,5 @@
 from cm_to_metefrom cm_to_meter import cm_to_m
-# from calculators import simple_calculator  # 간단 계산기 함수 (예시)
+from calculators import simple_calculator 
 from average_calculate import avg_calc
 # from string_utils import string_processor   # 문자열 처리 함수 (예시)
 from random_generator import generate_password
@@ -30,7 +30,7 @@ def main_menu():
 
             elif choice == '2':
                 print("\n[2. 간단 계산기]를 실행합니다...")
-                # simple_calculator() # 여기에 간단 계산기 함수 호출
+                simple_calculator()
                 pass
 
             elif choice == '3':

@@ -1,5 +1,5 @@
 # from converters import unit_converter      # 단위 변환기 함수 (예시)
-from calculator import simple_calculator  # 간단 계산기 함수 (예시)
+# from calculator import simple_calculator  # 간단 계산기 함수 (예시)
 # from score_analysis import calculate_average # 점수 평균 계산 함수 (예시)
 # from string_utils import string_processor   # 문자열 처리 함수 (예시)
 # from random_generator import generate_password # 랜덤 비밀번호 생성기 함수 (예시)
@@ -29,7 +29,7 @@ def main_menu():
 
             elif choice == '2':
                 print("\n[2. 간단 계산기]를 실행합니다...")
-                simple_calculator() # 여기에 간단 계산기 함수 호출
+                # simple_calculator() # 여기에 간단 계산기 함수 호출
                 pass
 
             elif choice == '3':

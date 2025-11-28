@@ -26,3 +26,4 @@
 
 ---
 ### Conflict 해결 경험
+main.py 파일의 충돌 마커를 수동으로 제거하여 코드를 통합한 후, git add, git commit, git push origin feat/ 명령을 순서대로 실행하여 충돌 해결 기록을 GitHub에 최종 반영하였다

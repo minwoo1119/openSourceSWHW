@@ -7,7 +7,7 @@ def simple_calculator():
     
     try:
         num1 = float(input("첫 번째 숫자를 입력하세요: "))
-        operator = input("연산자 (+, -, *, /)를 입력하세요: ")1
+        operator = input("연산자 (+, -, *, /)를 입력하세요: ")
         num2 = float(input("두 번째 숫자를 입력하세요: "))
     except ValueError:
         print("오류: 유효한 숫자를 입력해 주세요.")
@@ -20,7 +20,7 @@ def simple_calculator():
     elif operator == "-":
         result = num1 - num2 
     elif operator == "*":
-        result = num1 * num2 !
+        result = num1 * num2
     elif operator == "/":
         if num2 != 0:
             result = num1 / num2

@@ -1,12 +1,12 @@
-from cm_to_metefrom cm_to_meter import cm_to_m
-from calculators import simple_calculator 
-from average_calculate import avg_calc
+from cm_to_meter import cm_to_m
+from calculator import simple_calculator 
+from average_calculate import average_calculate as avg_calc
 from string_tool import string_processor   
-from random_generator import generate_password
+from RSK import random_generator as generate_password
 
 def main_menu():
     print("기능 선택 메뉴")
-    print("1. 단위 변환기 (cm ↔ m, kg ↔ g 등)")
+    print("1. 단위 변환기 (cm ↔ m)")
     print("2. 간단 계산기 (사칙연산)")
     print("3. 점수 평균 계산")
     print("4. 문자열 처리 (대문자/소문자 변환 등)")
@@ -45,7 +45,8 @@ def main_menu():
 
             elif choice == '5':
                 print("\n[5. 랜덤 비밀번호 생성기]를 실행합니다...")
-                print("랜덤 비밀번호가 생성되었습니다.\n{generate_password()}")
+                # 문자열 앞에 f를 추가
+                print(f"랜덤 비밀번호가 생성되었습니다.\n{generate_password()}") 
                 pass
 
             else:

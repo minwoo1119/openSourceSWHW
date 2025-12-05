@@ -1,7 +1,7 @@
 from cm_to_metefrom cm_to_meter import cm_to_m
 from calculators import simple_calculator 
 from average_calculate import avg_calc
-# from string_utils import string_processor   # 문자열 처리 함수 (예시)
+from string_tool import string_processor   
 from random_generator import generate_password
 
 def main_menu():
@@ -40,7 +40,7 @@ def main_menu():
 
             elif choice == '4':
                 print("\n[4. 문자열 처리]를 실행합니다...")
-                # string_processor() # 여기에 문자열 처리 함수 호출
+                string_processor()
                 pass
 
             elif choice == '5':

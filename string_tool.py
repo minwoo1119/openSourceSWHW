@@ -4,7 +4,7 @@ def to_upper(text):
 def to_lower(text):
     return text.lower()
 
-def string_menu():
+def string_processor():
     while True:
         print("\n=== 문자열 처리 ===")
         print("1. 대문자 변환")
@@ -20,4 +20,6 @@ def string_menu():
             print("[결과]", to_lower(text))
         else:
             print("잘못된 선택")
+
+
 
